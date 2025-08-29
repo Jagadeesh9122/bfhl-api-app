@@ -1,12 +1,12 @@
-// index.js
+
 import express from "express";
 
 const app = express();
 app.use(express.json());
 
-// Replace with your details
+
 const FULL_NAME = "baddila_jagadeesh";
-const DOB = "23_9_2004"; // change ddmmyyyy
+const DOB = "23_9_2004"; 
 const EMAIL = "baddila.jagadeesh2022@vitstudent.ac,in";
 const ROLL_NUMBER = "22BEC0912";
 
@@ -48,7 +48,7 @@ app.post("/bfhl", (req, res) => {
       }
     });
 
-    // Alternating caps in reverse
+    
     let concat_string = alphaConcat
       .split("")
       .reverse()
